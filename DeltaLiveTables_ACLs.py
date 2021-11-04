@@ -24,7 +24,7 @@ pipelines = apiclient.perform_query("GET", "/pipelines")
 # COMMAND ----------
 
 #Specify a pipeline by ID
-pipelineid = '95837c99-1a86-4423-85f6-33ae3dd2a3f1'
+pipelineid = '...'
 apiclient.perform_query("GET", "/permissions/pipelines/"+ pipelineid)
 
 # COMMAND ----------
@@ -43,7 +43,7 @@ apiclient.perform_query("PATCH","/permissions/pipelines/"+ pipelineid,{
 # COMMAND ----------
 
 #Specify a pipeline by ID
-pipelineid = '95837c99-1a86-4423-85f6-33ae3dd2a3f1'
+pipelineid = '...'
 apiclient.perform_query("GET", "/permissions/pipelines/"+ pipelineid)
 
 # COMMAND ----------
