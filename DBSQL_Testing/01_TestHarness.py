@@ -133,7 +133,7 @@ def run_sql_trials(test_matrix):
   import pandas as pd
   from databricks import sql
   
-  host = '...
+  host = '...'
   http_path = '...'
   connection = build_connection(host, http_path)
   
